@@ -1,0 +1,49 @@
+.container {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+}
+
+#title {
+  position: relative;
+  width: 50%;
+  left: 28vw;
+  top: 2vh;
+}
+
+#description {
+  position: relative;
+  width: 30%;
+  margin: auto;
+  top: 1vh;
+}
+
+#survey-form {
+  align-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+
+#survey-form > label {
+  width: 100%;
+}
+
+#survey-form > input {
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  top: 1vh;
+}
+
+.groud-radio > label {
+  margin-right: 3rem;
+}
+
+
+.check-group > label>input{
+  margin-left: 1rem;
+}
